@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class strategyDemo {
     public void strategyEvent(){
-        CompositeDemo Boss = new CompositeDemo();
+        CompositeDemo Boss = CompositeDemo.getInstance();
         for(int i=0;i<2;i++){
         try {
             if(i==0){
