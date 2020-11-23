@@ -23,7 +23,7 @@ public class ColdStorage {
     //奇怪的东西进入冷库事件
     public void InColdStorage()
     {
-        StoredStuffs stuffs =new StoredStuffs("耗子尾",10000);
+        StoredStuffs stuffs =new StoredStuffs("耗子尾",10000,"来自东亚TeacherMa的养殖场",8090);
         System.out.println("一匹马拉着一辆装满货物的车飞快的冲进了冷库(享元模式触发)\n" +
                 "Wonka:Look!!,这是今天新来的原料，让我看看又是什么好东西\n" +
                 "Wonka从车上拿出一箱货物并打开\n" +
@@ -35,7 +35,7 @@ public class ColdStorage {
     //奇怪的东西准备出仓库
     public void OutColdStorage()
     {
-        StoredStuffs stuffs =new StoredStuffs("耗子尾汁",20000);
+        StoredStuffs stuffs =new StoredStuffs("耗子尾汁",1000000,"来自旺卡巧克力工厂TeacherMa的独家授权",8091);
         stuffs.InStorage();
         System.out.println("另一边，一些刚产出的产品被小矮人们装车即将运往各个商场\n" +
                 "Wonka:哇喔，今天还有另外一些货物即将被送往世界各地，让我的小朋友看看是些啥\n" +

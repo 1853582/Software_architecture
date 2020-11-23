@@ -3,11 +3,14 @@ package pkg.Flyweight;
 public class StoredStuffs implements StoredStuff{
     public String name;
     public int number;
-
-    public StoredStuffs(String name, int number)
+    public String Information;
+    public int storedID;
+    public StoredStuffs(String name, int number,String Information,int storedID)
     {
         this.name=name;
         this.number=number;
+        this.storedID=storedID;
+        this.Information=Information;
     }
     @Override
     public void OutOfStorage() {

@@ -12,10 +12,11 @@ public class ColdStorage implements Scene{
     public float Humidity=20;//冷库湿度
     public int Brightness=3;//冷库亮度
     private int[][] Capacity = new int[20][20];  //冷库的分布，0表示位置为空，1代表该位置以被占
-
     private ColdStorage(){
         coldStoragePlants=new ColdStoragePlants();
     }
+
+    
     //将巧克力放入冷库
     public boolean putIn(int x,int y) {
         System.out.println("将包装好的巧克力放入冷库的横"+x+"纵向"+y);
@@ -67,15 +68,21 @@ public class ColdStorage implements Scene{
         System.out.println("Little Boy Comes to Cold Storage\n");
         System.out.println("Wonka:Welcome to Cold Storage, my hidden treasure!\n" +
                 "All the products that will be shipped to the store or the raw materials that just arrived at the factory are gathered here.\n");
+
         InColdStorage();
         OutColdStorage();
         System.out.println("Wonka:Let's look somewhere else, and the two men left the freezer.");
     }
 
+    //展示冷库事件
+    public void ShowColdStorage()
+    {
+
+    }
     //奇怪的东西进入冷库事件
     public void InColdStorage()
     {
-        StoredStuffs stuffs =new StoredStuffs("耗子尾",10000);
+        StoredStuffs stuffs =new StoredStuffs("耗子尾",10000,"来自东亚TeacherMa的养殖场",8090);
         System.out.println("一匹马拉着一辆装满货物的车飞快的冲进了冷库(享元模式触发)\n" +
                 "Wonka:Look!!,这是今天新来的原料，让我看看又是什么好东西\n" +
                 "Wonka从车上拿出一箱货物并打开\n" +
@@ -87,11 +94,11 @@ public class ColdStorage implements Scene{
     //奇怪的东西准备出仓库
     public void OutColdStorage()
     {
-        StoredStuffs stuffs =new StoredStuffs("耗子尾汁",20000);
+        StoredStuffs stuffs =new StoredStuffs("耗子尾汁",1000000,"来自旺卡巧克力工厂-TeacherMa的独家授权",8091);
         stuffs.InStorage();
         System.out.println("另一边，一些刚产出的产品被小矮人们装车即将运往各个商场\n" +
                 "Wonka:哇喔，今天还有另外一些货物即将被送往世界各地，让我的小朋友看看是些啥\n" +
-                "Wonka从车上，很快的拿到一盒产品并打开，\n" +
+                "Wonka从车上，啪很快的拿到一盒产品并打开，\n" +
                 "Wonka:o!!!!这正好是新鲜出炉的耗子尾汁，尝尝鲜吧孩子\n" +
                 "Wonka喝了一口之后递给小男孩，可惜小男孩全部防出去了");
         stuffs=coldStoragePlants.getStoredStuffs("耗子尾汁");
