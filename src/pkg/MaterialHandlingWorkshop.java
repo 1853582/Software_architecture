@@ -7,6 +7,9 @@ import pkg.Appearance.*;
 import pkg.mwb.beiwanglu.MementoPattern;
 
 public class MaterialHandlingWorkshop implements Scene {
+    public int temp=24;  //温度
+    public float Humidity=50;//湿度
+    public int Brightness=5;//亮度
     @Override
     public void welcome() {
         System.out.println("Willy Wonka take the little boy to the raw material production");
