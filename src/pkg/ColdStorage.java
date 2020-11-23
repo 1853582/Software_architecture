@@ -8,8 +8,11 @@ public class ColdStorage implements Scene{
     }
     //冷库操作
     private ColdStoragePlants coldStoragePlants;
-    private int temp;  //冷库的温度
+    public int temp=-5;  //冷库的温度
+    public float Humidity=20;//冷库湿度
+    public int Brightness=3;//冷库亮度
     private int[][] Capacity = new int[20][20];  //冷库的分布，0表示位置为空，1代表该位置以被占
+
     private ColdStorage(){
         coldStoragePlants=new ColdStoragePlants();
     }
