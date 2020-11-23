@@ -3,6 +3,7 @@ package pkg;
 import pkg.zyl.Interpreter.events;
 import pkg.mwb.ob_pa.ObserverPattern;
 import pkg.LDL.Strategy.strategyDemo;
+import pkg.haq.Viewer;
 
 public class Demo {
     public static void main(String[] args) {
@@ -13,7 +14,9 @@ public class Demo {
         //------------------------------------------------------------------------------------------------
         ObserverPattern.openvent();
         //------------------------------------------------------------------------------------------------
-
+        Viewer viewer = new Viewer();
+        viewer.veiwHotList();
+        viewer.veiwPastYearList();
         //------------------------------------------------------------------------------------------------
         System.out.println(".........");
         //-------------LDL的介绍巧克力部分，运用策略模式--------------------------------------------------------
