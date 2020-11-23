@@ -32,7 +32,7 @@ public class Employee {
     }
     //得到该名员工的姓名
     public  String getName(){
-        System.out.println("你要查看的员工的名字为："+this.name);
+        //System.out.println("你要查看的员工的名字为："+this.name);
         return name;
     }
     //得到该名员工隶属的部门

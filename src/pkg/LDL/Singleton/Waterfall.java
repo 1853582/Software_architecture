@@ -5,10 +5,10 @@ public class Waterfall {
     private int roomTemp;      //巧克力瀑布所在房间的室内温度
     private int temp;  //巧克力瀑布的温度
     //创建 SingleObject 的一个对象
-    private static Waterfall theWaterfall = new Waterfall();
+    private static Waterfall theWaterfall = new Waterfall(15);
 
     //让构造函数为 private，这样该类就不会被实例化
-    private Waterfall(){}
+    private Waterfall(int temp){  this.temp=temp; }
 
     //获取唯一可用的对象
     public static Waterfall getInstance(){
@@ -44,5 +44,8 @@ public class Waterfall {
     //输出当前巧克力瀑布房间的一些信息
     public void showMessage(){
         System.out.println("没有信息");
+    }
+    public void waterFallEvent(){
+        System.out.println("小朋友，这个呀，就是我们");
     }
 }

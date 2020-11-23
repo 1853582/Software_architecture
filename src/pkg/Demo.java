@@ -18,7 +18,7 @@ public class Demo {
         System.out.println(".........");
         //-------------LDL的介绍巧克力部分，运用策略模式--------------------------------------------------------
         strategyDemo theStrategy = new strategyDemo();
-        //theStrategy.strategyEvent();
+        theStrategy.strategyEvent();
         //------------------------------------------------------------------------------------------------
         System.out.println(".........");
        // events.ExpressionEvent();

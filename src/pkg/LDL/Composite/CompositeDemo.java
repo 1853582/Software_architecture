@@ -1,8 +1,8 @@
 package pkg.LDL.Composite;
 
 public class CompositeDemo {
-    Employee theBoss = new Employee("Willy Wonka","Factory boss","数不尽的巧克力");
-    Employee Squirrel1 = new Employee("小松鼠杰米","坚果质检与剥壳部门","200颗榛果");
+    public Employee theBoss = new Employee("Willy Wonka","Factory boss","数不尽的巧克力");
+    public Employee Squirrel1 = new Employee("小松鼠杰米","坚果质检与剥壳部门","200颗榛果");
     Employee Squirrel2 = new Employee("小松鼠凯恩","坚果质检与剥壳部门","200颗榛果");
     Employee Squirrel3 = new Employee("小松鼠梅西","坚果质检与剥壳部门","200颗榛果");
     Employee Squirrel4 = new Employee("小松鼠萨内","坚果质检与剥壳部门","200颗榛果");
