@@ -1,5 +1,5 @@
 package pkg.Appearance;
-import pkg.LDL.*;
+//import pkg.LDL.*;
 public class RawMaterialProduction {
     public Hazelnut hazelnut;
     public Cacao cacao;
