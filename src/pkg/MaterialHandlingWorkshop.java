@@ -18,8 +18,7 @@ public class MaterialHandlingWorkshop implements Scene {
         System.out.println("All raw materials will be obtained from here");
         System.out.println("Willy Wonka start displaying and pointing the cane over there.");
         //开始展示榛果生产线
-        NulDemo nulDemo = new NulDemo();
-        nulDemo.demoMain();
+
         ShowHazelnut();
         System.out.println("Wonka:Over here is our cocoa bean processing ");
         ShowCacao();

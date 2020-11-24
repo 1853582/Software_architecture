@@ -1,4 +1,7 @@
 package pkg.Appearance;
+
+import pkg.wck.Null.NulDemo;
+
 public class Hazelnut implements RawMaterial {
     private int nut;
     private int Nutshell;
@@ -9,8 +12,8 @@ public class Hazelnut implements RawMaterial {
     }
     @Override
     public void product() {
-        System.out.println("小松鼠" +
-                " 咬开了榛果并且获得了果仁 \n");
+        NulDemo nulDemo = new NulDemo();
+        nulDemo.demoMain();
         System.out.println("奇怪的果仁增加了！\n");
         this.nut++;
         this.Nutshell++;
