@@ -6,7 +6,7 @@ import pkg.hzc.Prototype.BoilerProducing.Boiler;
 import pkg.Appearance.*;
 import pkg.mwb.beiwanglu.MementoPattern;
 import pkg.wck.Null.NulDemo;
-
+import pkg.mwb.zhongjiezhe.MediatorPattern;
 public class MaterialHandlingWorkshop implements Scene {
     public int temp=24;  //温度
     public float Humidity=50;//湿度

@@ -3,7 +3,7 @@ package pkg.mwb.ob_pa;
 import java.util.*;
 
 public class ObserverPattern {
-    public static void openvent() {
+    public static void opevent() {
         Subject subject = new ConcreteSubject();
         Observer obs1 = new Light1();
         Observer obs2 = new Light2();

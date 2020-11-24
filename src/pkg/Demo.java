@@ -12,7 +12,7 @@ public class Demo {
         System.out.println("威利旺卡：欢迎参观我的巧克力工厂！");
         System.out.println(".........");
         //------------------------------------------------------------------------------------------------
-        ObserverPattern.openvent();
+        ObserverPattern.opevent();
         //------------------------------------------------------------------------------------------------
         Viewer viewer = new Viewer();
         viewer.veiwHotList();

@@ -2,7 +2,7 @@ package pkg.mwb.zhongjiezhe;
 import java.util.*;
 public class MediatorPattern
 {
-    public static void main(String[] args)
+    public static void zjzevent()
     {
         Colleague c1,c2;
         c1=new ConcreteColleague1();
