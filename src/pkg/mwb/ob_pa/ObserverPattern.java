@@ -37,7 +37,7 @@ abstract class Subject {
 class ConcreteSubject extends Subject {
     public void notifyObserver() {
         System.out.println("欢迎来到旺卡的巧克力工厂");
-        System.out.println("威利旺卡大手一挥");
+        System.out.println("威利旺卡大手一挥，这是厂长特有的手势！");
         System.out.println("--------------");
 
         for (Object obs : observers) {
@@ -56,16 +56,16 @@ interface Observer {
 //灯光做出变化
 class Light1 implements Observer {
     public void response() {
-        System.out.println("大厅地板荧光灯打开");
+        System.out.println("只见大厅地板荧光灯打开；");
     }
 }
 class Light2 implements Observer {
     public void response() {
-        System.out.println("大厅墙壁上悬挂的火把点燃");
+        System.out.println("大厅墙壁上悬挂的火把像是被看不到的火把点燃，整个房间变得既明亮又温暖；");
     }
 }
 class Light3 implements Observer {
     public void response() {
-        System.out.println("屋顶的水晶灯闪烁");
+        System.out.println("屋顶的水晶灯也开始闪烁。");
     }
 }
