@@ -56,6 +56,7 @@ public class MaterialHandlingWorkshop implements Scene {
     private void ShowCacao()
     {
         rawMaterialProduction.CacaoSayHello();
+        MediatorPattern.zjzevent();
     }
     //厂长讲述加工虚空原料的过程（例如仓鼠加工榛果）
     //Code
