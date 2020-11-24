@@ -9,20 +9,20 @@ public class ColdStorage {
             coldStorage=new ColdStorage();
         return coldStorage;
     }
-    //进入冷库事件
+    /*//进入冷库事件
     public void EnterColdStorage()
     {
         System.out.println("小男孩来到了冷库\n");
         System.out.println("Wonka:Welcome to Cold Storage, my hidden treasure!\n" +
                 "All the products that will be shipped to the store or the raw materials that just arrived at the factory are gathered here.\n");
-        InColdStorage();
+        /*InColdStorage();
         OutColdStorage();
         System.out.println("Wonka:让我们去看一些别的东西吧.两人离开了冷库");
     }
 
 
     //奇怪的东西进入冷库事件
-    public void InColdStorage()
+   /* public void InColdStorage()
     {
         StoredStuffs stuffs =new StoredStuffs("耗子尾",10000,"来自东亚TeacherMa的养殖场",8090,"大");
         System.out.println("一匹马拉着一辆装满货物的车飞快的冲进了冷库(享元模式触发)\n" +
@@ -53,6 +53,6 @@ public class ColdStorage {
         stuffs=coldStoragePlants.getStoredStuffs("耗子尾汁");
         stuffs.OutOfStorage();
 
-    }
+    }*/
 
 }

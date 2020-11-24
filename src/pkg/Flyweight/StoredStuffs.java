@@ -3,14 +3,13 @@ package pkg.Flyweight;
 public class StoredStuffs implements StoredStuff{
     public String name;
     public int number;
+    //存储物描述
     public String Information;
-    public int storedID;
     public String size;
-    public StoredStuffs(String name, int number,String Information,int storedID,String size)
+    public StoredStuffs(String name, int number,String Information,String size)
     {
         this.name=name;
         this.number=number;
-        this.storedID=storedID;
         this.Information=Information;
         this.size=size;
     }
@@ -37,11 +36,6 @@ public class StoredStuffs implements StoredStuff{
     }
 
     @Override
-    public void setId() {
-        this.number=(int)(Math.random()*10000 );
-    }
-
-    @Override
     public void setSize() {
         int i=(int)(Math.random()*10);
         if(i%3==0)
@@ -50,5 +44,6 @@ public class StoredStuffs implements StoredStuff{
             size="中";
         if(i%3==2)
             size="小";
+
     }
 }
