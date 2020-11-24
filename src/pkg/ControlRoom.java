@@ -17,6 +17,8 @@ public class ControlRoom implements Scene{
         System.out.println("来吧我的孩子，来见证一下造物的奇迹！");
         ControllerUser controller=new ControllerUser();
         controller.StartUse();
+        System.out.println("威利旺卡:小朋友，时间到了，你该回家了");
+        System.out.println("小男孩查理感觉面前一片雪白，醒来时此时发现自己正躺在家里的床上，好像做了一场梦一样，男孩站起来摸一摸口袋，手上多一块巧克力");
     }
 
 
