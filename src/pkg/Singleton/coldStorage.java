@@ -37,17 +37,6 @@ public class coldStorage {
         }
         return true;
     }
-    //搜寻冷库中的空位
-    public int[] searchEmpty(){
-        for(int i=0;i<20;i++){
-            for(int j=0;j<20;j++){
-                if(theColdStorage.Capacity[i][j]==0){
-                    return new int[]{i,j};
-                }
-            }
-        }
-        return new int[]{0};
-    }
     //查看冷库的温度
     public int checkTemp(){
         return theColdStorage.temp;
@@ -86,8 +75,8 @@ public class coldStorage {
         System.out.println("威利旺卡：怪不得这么冷呢，温度这么低，让我把它调高一点");
         System.out.println("滴答.......");
         Scanner inTemp = new Scanner(System.in);
-        int tempa = inTemp.nextInt();
-        theColdStorage.setTemp(tempa);
+        int tempA = inTemp.nextInt();
+        theColdStorage.setTemp(tempA);
         System.out.println("威利旺卡：这个冷库可是我们工厂非常重要的一个环节，它要是出问题了，可能会危及整个工厂的巧克力，所以智能管理很重要滴！");
     }
 }
