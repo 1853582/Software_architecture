@@ -67,7 +67,8 @@ public class HotCocoaFalls implements Scene{
         CurrentState currentState = new CurrentState();
         //温度
         currentState.setStemp("炎热");
-        System.out.println("哎呀，刚加工完的热可可把整个楼层都变热了！");
+        System.out.println("刚出电梯，一股热浪迎面扑来");
+        System.out.println("厂长说：哎呀，刚加工完的热可可把整个楼层都变热了！");
         System.out.println("不过不要紧！我们有神奇的温度控制器！");
         System.out.println("我的上帝啊！它显示现在这层楼居然处于"+currentState.getStemp()+"状态！");
         //System.out.println("那么请看！");
@@ -86,7 +87,7 @@ public class HotCocoaFalls implements Scene{
 
         //湿度
         currentState.setShumi("潮湿");
-        System.out.println("这个楼层很潮湿！不是吗？");
+        System.out.println("厂长接着说：这个楼层很潮湿！不是吗？");
         System.out.println("没关系！我们还有奇妙的湿度控制器！");
         System.out.println("现在这层楼处于"+currentState.getShumi()+"状态！");
         HumidityController humidityController = new HumidityController();

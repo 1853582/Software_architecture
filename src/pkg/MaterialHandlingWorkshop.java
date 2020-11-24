@@ -5,6 +5,7 @@ import pkg.hzc.Prototype.BoilerProducing.BoilerCache;
 import pkg.hzc.Prototype.BoilerProducing.Boiler;
 import pkg.Appearance.*;
 import pkg.mwb.beiwanglu.MementoPattern;
+import pkg.wck.Null.NulDemo;
 
 public class MaterialHandlingWorkshop implements Scene {
     public int temp=24;  //温度
@@ -17,6 +18,8 @@ public class MaterialHandlingWorkshop implements Scene {
         System.out.println("All raw materials will be obtained from here");
         System.out.println("Willy Wonka start displaying and pointing the cane over there.");
         //开始展示榛果生产线
+        NulDemo nulDemo = new NulDemo();
+        nulDemo.demoMain();
         ShowHazelnut();
         System.out.println("Wonka:Over here is our cocoa bean processing ");
         ShowCacao();
@@ -59,7 +62,7 @@ public class MaterialHandlingWorkshop implements Scene {
 
     public void Prototype() {
         //介绍熔炉制作工艺
-        System.out.println("看到那些大火炉了吗，我的孩子？");
+        System.out.println("厂长问：看到那些大火炉了吗，我的孩子？");
         System.out.println("告诉你个秘密吧，其实起初只有一台熔炉哦");
         System.out.println("一位好心的魔法师使用神奇的原型魔法，帮我‘克隆’出了其他的熔炉，这可帮了大忙了！");
         System.out.println("来看看现在我们拥有的魔法熔炉吧！");
