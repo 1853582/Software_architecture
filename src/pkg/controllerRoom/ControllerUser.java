@@ -48,7 +48,7 @@ public class ControllerUser {
         String[] array=action.split(",");
         if(array.length<3)
         {
-            System.out.println("指令格式好像有误，再试一次吧");
+            System.out.println("指令格式好像有误，再试一次吧 格式如：15,2,6(逗号隔开，分别为调节温度湿度和亮度)");
             Scanner scan = new Scanner(System.in);
             String instruct = scan.next();
             ContollerAction(instruct);
