@@ -5,12 +5,14 @@ public class StoredStuffs implements StoredStuff{
     public int number;
     public String Information;
     public int storedID;
-    public StoredStuffs(String name, int number,String Information,int storedID)
+    public String size;
+    public StoredStuffs(String name, int number,String Information,int storedID,String size)
     {
         this.name=name;
         this.number=number;
         this.storedID=storedID;
         this.Information=Information;
+        this.size=size;
     }
     @Override
     public void OutOfStorage() {
@@ -27,5 +29,26 @@ public class StoredStuffs implements StoredStuff{
         ColdStoragePlants.getColdStoragePlants().storedList.put(name,this);
         System.out.println(name+"被小矮人们拿进存储的区域\n");
 
+    }
+
+    @Override
+    public void setNumber() {
+        this.number=(int)(Math.random()*1000 );
+    }
+
+    @Override
+    public void setId() {
+        this.number=(int)(Math.random()*10000 );
+    }
+
+    @Override
+    public void setSize() {
+        int i=(int)(Math.random()*10);
+        if(i%3==0)
+            size="大";
+        if(i%3==1)
+            size="中";
+        if(i%3==2)
+            size="小";
     }
 }
