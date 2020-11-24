@@ -17,7 +17,9 @@ public class Cacao implements RawMaterial{
 
     @Override
     public void transportation() {
-        System.out.println("可可豆粉末被装进小车带走了\n");
-        this.SomeCocoaBeanPowder--;
+        if(this.SomeCocoaBeanPowder>0) {
+            System.out.println("可可豆粉末被装进小车带走了\n");
+            this.SomeCocoaBeanPowder--;
+        }
     }
 }

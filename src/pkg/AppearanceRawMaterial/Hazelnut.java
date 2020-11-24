@@ -21,9 +21,11 @@ public class Hazelnut implements RawMaterial {
 
     @Override
     public void transportation() {
-        System.out.println("榛果仁被放到了传送带上 \n");
-        this.nut--;
-        this.Nutshell--;
+        if(this.nut>0) {
+            System.out.println("榛果仁被放到了传送带上 \n");
+            this.nut--;
+            this.Nutshell--;
+        }
     }
 
 }
