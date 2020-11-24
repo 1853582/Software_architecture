@@ -9,16 +9,15 @@ public class Cacao implements RawMaterial{
     }
     @Override
     public void product() {
-        System.out.println("The dwarf pours a lot of cocoa beans out of the bag. \n");
-        System.out.println("The dwarf pours a lot of cocoa beans from the bag into the Shredders(粉碎机).\n");
-        System.out.println("Strange Cocoa Bean Powder Increases");
+        System.out.println("小矮人将可可豆整袋倒进粉碎机中 \n");
+        System.out.println("奇怪的可可豆粉末增加了！");
         this.SomeWholeCocoaBeans--;
         this.SomeCocoaBeanPowder++;
     }
 
     @Override
     public void transportation() {
-        System.out.println("Cacao powder is taken away in a cart.\n");
+        System.out.println("可可豆粉末被装进小车带走了\n");
         this.SomeCocoaBeanPowder--;
     }
 }

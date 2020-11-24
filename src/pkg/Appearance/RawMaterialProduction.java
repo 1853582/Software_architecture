@@ -13,9 +13,9 @@ public class RawMaterialProduction {
     public void HazelnutSayHello()
     {
 
-       System.out.println("A little squirrel saw the little boy and his group and greeted them happily, wagging his tail.\n");
+        System.out.println("小松鼠看到了查理一行人，开心的打了打招呼还摇了摇尾巴\n");
         HazenutProduction();
-        System.out.println("Wonka:My squirrel friends came from as far away as Siberia, and they loved the work!\n");
+        System.out.println("旺卡:我亲爱的松鼠朋友从遥远的西伯利亚而来，他们喜欢这个工作乐此不疲\n");
     }
     //可可豆处理展示事件
     public void CacaoSayHello()

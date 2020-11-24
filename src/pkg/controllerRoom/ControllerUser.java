@@ -11,6 +11,7 @@ public class ControllerUser {
     public void StartUse()
     {
         System.out.println("旺卡走到操控屏前准备开始操作");
+        System.out.println("选择你想操作的房间（1:冷库，2：原料生产车间）");
         Scanner scan = new Scanner(System.in);
         String instruct = scan.next();
         SelectRoom(instruct);
@@ -18,10 +19,10 @@ public class ControllerUser {
     }
     public void SelectRoom(String  Room)
     {
-        System.out.println("选择你想操作的房间（1:冷库，2：原料生产车间）");
         switch (Room){
             case "1": {
                 System.out.println("欢迎进行冷库的操作设置");
+                System.out.println("输入运行指令，如：15,2,6(逗号隔开，分别为调节温度湿度和亮度)");
                 Scanner scan = new Scanner(System.in);
                 String instruct = scan.next();
                 ContollerAction(instruct);
@@ -30,6 +31,7 @@ public class ControllerUser {
             }
             case "2": {
                 System.out.println("欢迎进行原料生产车间的操作设置");
+                System.out.println("输入运行指令，如：15,2,6(逗号隔开，分别为调节温度湿度和亮度)");
                 Scanner scan = new Scanner(System.in);
                 String instruct = scan.next();
                 ContollerAction(instruct);
@@ -43,7 +45,6 @@ public class ControllerUser {
     }
     public void ContollerAction(String action){
 
-        System.out.println("输入运行指令，如：15,2,6(逗号隔开，分别为调节温度湿度和亮度)");
         String[] array=action.split(",");
         if(array.length<3)
         {
