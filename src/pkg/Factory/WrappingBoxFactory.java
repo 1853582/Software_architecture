@@ -1,4 +1,4 @@
-package pkg.factory;
+package pkg.Factory;
 
 public class WrappingBoxFactory extends AbstractFactory {
     private static WrappingBoxFactory Instance = new WrappingBoxFactory();

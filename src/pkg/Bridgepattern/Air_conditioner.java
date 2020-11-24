@@ -1,4 +1,4 @@
-package pkg.zyl.Bridgepattern;
+package pkg.Bridgepattern;
 
 public class Air_conditioner extends Device{
 

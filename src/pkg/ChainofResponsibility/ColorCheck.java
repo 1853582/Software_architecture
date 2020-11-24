@@ -1,4 +1,4 @@
-package pkg.zyl.ChainofResponsibility;
+package pkg.ChainofResponsibility;
 // 封装不同类型巧克力标准颜色的类
 class standColor{
     // 巧克力类型，0表示白巧克力，1表示黑巧克力

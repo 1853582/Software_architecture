@@ -1,4 +1,4 @@
-package pkg.wck.Builder;
+package pkg.Builder;
 
 public class Sugar {
     //原材料之一糖，三种量对应三种不同巧克力

@@ -1,4 +1,4 @@
-package pkg.wck.Null;
+package pkg.NullObject;
 
 public class NulDemo {
     public void demoMain(){

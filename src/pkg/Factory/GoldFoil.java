@@ -1,4 +1,4 @@
-package pkg.factory;
+package pkg.Factory;
 
 public class GoldFoil implements WrappingPaper {
     GoldFoil(){

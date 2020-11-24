@@ -1,4 +1,4 @@
-package pkg.mwb.beiwanglu;
+package pkg.Memento;
 
 public class MementoPattern
 {

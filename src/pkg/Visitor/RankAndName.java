@@ -1,4 +1,4 @@
-package pkg.haq;
+package pkg.Visitor;
 
 public class RankAndName {
     public int Rank;

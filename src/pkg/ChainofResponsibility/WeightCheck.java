@@ -1,4 +1,4 @@
-package pkg.zyl.ChainofResponsibility;
+package pkg.ChainofResponsibility;
 class standWeight{
     float standWeight;
     float WDvalue;

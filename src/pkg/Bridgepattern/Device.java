@@ -1,4 +1,4 @@
-package pkg.zyl.Bridgepattern;
+package pkg.Bridgepattern;
 
 // 抽象设备类
 public abstract class Device {

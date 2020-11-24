@@ -1,4 +1,4 @@
-package pkg.zyl.ChainofResponsibility;
+package pkg.ChainofResponsibility;
 
 public abstract class Check {
     public chocolategood checkGood;  //要检测的巧克力

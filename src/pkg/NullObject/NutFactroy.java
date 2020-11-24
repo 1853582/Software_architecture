@@ -1,4 +1,4 @@
-package pkg.wck.Null;
+package pkg.NullObject;
 
 import java.util.Random;
 

@@ -1,4 +1,4 @@
-package pkg.mwb.zhongjiezhe;
+package pkg.Mediator;
 import java.util.*;
 public class MediatorPattern
 {

@@ -1,4 +1,4 @@
-package pkg.LDL.Strategy;
+package pkg.Strategy;
 
 public class StuffedChocolate implements Strategy{
     //策略之三，选择夹心巧克力

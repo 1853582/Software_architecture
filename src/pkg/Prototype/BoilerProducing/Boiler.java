@@ -1,4 +1,4 @@
-package pkg.hzc.Prototype.BoilerProducing;
+package pkg.Prototype.BoilerProducing;
 
 public abstract class Boiler implements Cloneable{
 

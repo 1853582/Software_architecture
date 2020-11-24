@@ -1,6 +1,6 @@
 package pkg;
 
-public class GoToChocolateMakingWorkshop implements Command{
+public class GoToChocolateMakingWorkshop implements Command {
     @Override
     public void execute() {
         Lift MagicLift = new Lift();

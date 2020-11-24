@@ -1,4 +1,4 @@
-package pkg.mwb.ob_pa;
+package pkg.Observer;
 
 import java.util.*;
 

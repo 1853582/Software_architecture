@@ -1,9 +1,9 @@
 package pkg;
-import pkg.hzc.Decorator.*;
-import pkg.hzc.Prototype.ChocoPacking.Choco;
-import pkg.hzc.Prototype.ChocoPacking.ChocoCache;
-import pkg.wck.Builder.ProductAssemblyWorkShop;
-import pkg.factory.*;
+import pkg.Decorator.*;
+import pkg.Prototype.ChocoPacking.Choco;
+import pkg.Prototype.ChocoPacking.ChocoCache;
+import pkg.Builder.ProductAssemblyWorkShop;
+import pkg.Factory.*;
 
 import java.util.Scanner;
 

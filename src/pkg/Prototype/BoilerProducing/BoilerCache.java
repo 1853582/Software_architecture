@@ -1,4 +1,4 @@
-package pkg.hzc.Prototype.BoilerProducing;
+package pkg.Prototype.BoilerProducing;
 import java.util.Hashtable;
 
 public class BoilerCache {

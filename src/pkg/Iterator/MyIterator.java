@@ -1,8 +1,8 @@
-package pkg.wck.Iterator;
+package pkg.Iterator;
 
-import pkg.zyl.ChainofResponsibility.chocolategood;
+import pkg.ChainofResponsibility.chocolategood;
 
-public interface Iterator {
+public interface MyIterator {
     //迭代器接口
     //正向检测
     public boolean hasNext();

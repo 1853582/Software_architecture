@@ -1,4 +1,4 @@
-package pkg.hzc.Prototype.ChocoPacking;
+package pkg.Prototype.ChocoPacking;
 
 public abstract class Choco implements Cloneable{
 

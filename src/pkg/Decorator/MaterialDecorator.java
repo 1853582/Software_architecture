@@ -1,6 +1,4 @@
-package pkg.hzc.Decorator;
-
-import java.awt.*;
+package pkg.Decorator;
 
 public abstract class MaterialDecorator implements Material{
     protected Material decoratedMaterial;

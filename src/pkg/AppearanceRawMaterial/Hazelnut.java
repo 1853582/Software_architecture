@@ -1,6 +1,6 @@
-package pkg.Appearance;
+package pkg.AppearanceRawMaterial;
 
-import pkg.wck.Null.NulDemo;
+import pkg.NullObject.NulDemo;
 
 public class Hazelnut implements RawMaterial {
     private int nut;

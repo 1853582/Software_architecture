@@ -1,12 +1,9 @@
 package pkg;
-import pkg.Appearance.RawMaterialProduction;
-import pkg.Appearance.RawMaterialProductionWorkshop;
-import pkg.hzc.Prototype.BoilerProducing.BoilerCache;
-import pkg.hzc.Prototype.BoilerProducing.Boiler;
-import pkg.Appearance.*;
-import pkg.mwb.beiwanglu.MementoPattern;
-import pkg.wck.Null.NulDemo;
-import pkg.mwb.zhongjiezhe.MediatorPattern;
+import pkg.AppearanceRawMaterial.RawMaterialProduction;
+import pkg.Prototype.BoilerProducing.BoilerCache;
+import pkg.Prototype.BoilerProducing.Boiler;
+import pkg.Memento.MementoPattern;
+import pkg.Mediator.MediatorPattern;
 public class MaterialHandlingWorkshop implements Scene {
     public int temp=24;  //温度
     public float Humidity=50;//湿度

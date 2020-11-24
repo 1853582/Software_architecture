@@ -1,6 +1,6 @@
-package pkg.LDL.Strategy;
+package pkg.Strategy;
 //import pkg.LDL.*;
-import pkg.LDL.Composite.CompositeDemo;
+import pkg.Composite.CompositeDemo;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package pkg.factory;
+package pkg.Factory;
 
 public interface Chocolate {
     public void display();

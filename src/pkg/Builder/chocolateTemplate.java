@@ -1,4 +1,4 @@
-package pkg.wck.Builder;
+package pkg.Builder;
 
 public abstract class chocolateTemplate {
     protected static int num1 = 0;

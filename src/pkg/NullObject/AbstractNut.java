@@ -1,4 +1,4 @@
-package pkg.wck.Null;
+package pkg.NullObject;
 
 public abstract class AbstractNut {
     protected int num;

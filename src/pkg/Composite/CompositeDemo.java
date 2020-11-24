@@ -1,4 +1,4 @@
-package pkg.LDL.Composite;
+package pkg.Composite;
 
 public class CompositeDemo {
     private static CompositeDemo Instance = new CompositeDemo();

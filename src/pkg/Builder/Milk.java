@@ -1,4 +1,4 @@
-package pkg.wck.Builder;
+package pkg.Builder;
 
 public class Milk {
     //原材料之一牛奶，三种量对应三种不同巧克力

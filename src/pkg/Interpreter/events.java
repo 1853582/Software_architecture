@@ -1,4 +1,4 @@
-package pkg.zyl.Interpreter;
+package pkg.Interpreter;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package pkg.factory;
+package pkg.Factory;
 
 public class ChocolateFactory extends AbstractFactory {
     private static ChocolateFactory Instance = new ChocolateFactory();

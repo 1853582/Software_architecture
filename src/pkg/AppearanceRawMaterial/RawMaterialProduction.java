@@ -1,4 +1,4 @@
-package pkg.Appearance;
+package pkg.AppearanceRawMaterial;
 //import pkg.LDL.*;
 public class RawMaterialProduction {
     public Hazelnut hazelnut;

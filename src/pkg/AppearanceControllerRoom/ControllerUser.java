@@ -1,8 +1,7 @@
-package pkg.controllerRoom;
+package pkg.AppearanceControllerRoom;
 
 import pkg.*;
 
-import java.lang.reflect.Array;
 import java.util.Scanner;
 
 public class ControllerUser {

@@ -1,4 +1,4 @@
-package pkg.zyl.ChainofResponsibility;
+package pkg.ChainofResponsibility;
 
 //巧克力颜色类
 public class Color {

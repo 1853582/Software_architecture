@@ -1,4 +1,4 @@
-package pkg.wck.Builder;
+package pkg.Builder;
 
 public class chocolateType extends chocolateTemplate{
     //巧克力原型类型

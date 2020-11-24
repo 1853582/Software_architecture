@@ -1,7 +1,7 @@
 package pkg;
 //import pkg.wck.Iterator.Iterator;
-import pkg.wck.Iterator.IteratorDemo;
-import pkg.wck.Builder.MakingWorkShop;
+import pkg.Iterator.IteratorDemo;
+import pkg.Builder.MakingWorkShop;
 
 public class ChocolateMakingWorkshop implements Scene {
     private  static ChocolateMakingWorkshop Instance =new ChocolateMakingWorkshop();

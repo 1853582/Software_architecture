@@ -1,4 +1,4 @@
-package pkg.hzc.Decorator;
+package pkg.Decorator;
 
 public class MaterialWithContainerDecorator extends MaterialDecorator{
 

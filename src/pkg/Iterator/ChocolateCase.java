@@ -1,8 +1,8 @@
-package pkg.wck.Iterator;
+package pkg.Iterator;
 
 
-import pkg.zyl.ChainofResponsibility.chocolategood;
-import pkg.zyl.ChainofResponsibility.Color;
+import pkg.ChainofResponsibility.chocolategood;
+import pkg.ChainofResponsibility.Color;
 
 public class ChocolateCase implements Container {
     //创建实现Container接口的实体类
@@ -22,13 +22,13 @@ public class ChocolateCase implements Container {
 
     //获得迭代器
     @Override
-    public Iterator getIterator(){
-        return new ChocolateIterator();
+    public MyIterator getIterator(){
+        return new ChocolateMyIterator();
     };
 
 
     //实现 Iterator 接口的内部类 NameIterator。
-    public class ChocolateIterator implements Iterator {
+    public class ChocolateMyIterator implements MyIterator {
         int num = 1;
 
         //检测是否有下一个

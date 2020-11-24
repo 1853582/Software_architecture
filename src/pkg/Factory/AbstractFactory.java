@@ -1,4 +1,4 @@
-package pkg.factory;
+package pkg.Factory;
 
 public abstract class AbstractFactory {
     public abstract WrappingBox getWrappingBox(String BoxName);

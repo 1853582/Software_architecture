@@ -1,4 +1,4 @@
-package pkg.LDL.Singleton;
+package pkg.Singleton;
 
 public class Singleton {
 

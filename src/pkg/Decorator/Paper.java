@@ -1,4 +1,4 @@
-package pkg.hzc.Decorator;
+package pkg.Decorator;
 
 public class Paper implements Material{
     @Override

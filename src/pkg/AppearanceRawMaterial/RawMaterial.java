@@ -1,4 +1,4 @@
-package pkg.Appearance;
+package pkg.AppearanceRawMaterial;
 public interface RawMaterial {
 
     public void product();

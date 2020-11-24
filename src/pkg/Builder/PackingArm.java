@@ -1,4 +1,4 @@
-package pkg.wck.Builder;
+package pkg.Builder;
 
 public class PackingArm implements Packing{
     //场景里的一个机械臂，用于包装巧克力产品

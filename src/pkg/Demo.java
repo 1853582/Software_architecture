@@ -1,9 +1,8 @@
 package pkg;
 
-import pkg.zyl.Interpreter.events;
-import pkg.mwb.ob_pa.ObserverPattern;
-import pkg.LDL.Strategy.strategyDemo;
-import pkg.haq.Viewer;
+import pkg.Observer.ObserverPattern;
+import pkg.Strategy.strategyDemo;
+import pkg.Visitor.Viewer;
 
 public class Demo {
     public static void main(String[] args) {

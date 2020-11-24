@@ -1,4 +1,4 @@
-package pkg.wck.Builder;
+package pkg.Builder;
 
 public class ProductAssemblyWorkShop {
     public ProductAssemblyWorkShop(){

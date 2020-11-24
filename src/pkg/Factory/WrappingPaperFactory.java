@@ -1,4 +1,4 @@
-package pkg.factory;
+package pkg.Factory;
 
 public class WrappingPaperFactory extends AbstractFactory {
     private static WrappingPaperFactory Instance = new WrappingPaperFactory();

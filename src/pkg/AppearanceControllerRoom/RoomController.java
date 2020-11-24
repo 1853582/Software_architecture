@@ -1,4 +1,4 @@
-package pkg.controllerRoom;
+package pkg.AppearanceControllerRoom;
 
 public interface RoomController {
     //查看温度

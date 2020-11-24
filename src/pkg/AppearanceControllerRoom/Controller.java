@@ -1,4 +1,4 @@
-package pkg.controllerRoom;
+package pkg.AppearanceControllerRoom;
 import pkg.*;
 
 public class Controller implements RoomController{

@@ -1,4 +1,4 @@
-package pkg.wck.Builder;
+package pkg.Builder;
 
 public class chocolateProductType extends chocolateProductTemplate{
     //巧克力产品类型

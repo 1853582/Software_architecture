@@ -1,4 +1,4 @@
-package pkg.factory;
+package pkg.Factory;
 
 public class MilkChocolate implements Chocolate {
     MilkChocolate(){

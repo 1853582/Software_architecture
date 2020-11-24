@@ -1,4 +1,4 @@
-package pkg.haq;
+package pkg.Visitor;
 
 public class DataAndTime {
     public int PublishYear;

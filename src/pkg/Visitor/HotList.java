@@ -1,4 +1,4 @@
-package pkg.haq;
+package pkg.Visitor;
 
 public class HotList {
     public RankAndName RankAndName1 = new RankAndName();

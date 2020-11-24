@@ -1,4 +1,4 @@
-package pkg.factory;
+package pkg.Factory;
 
 public interface WrappingPaper {
     public void display();

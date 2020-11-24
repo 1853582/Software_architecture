@@ -1,4 +1,4 @@
-package pkg.wck.Builder;
+package pkg.Builder;
 
 public class WrappingPaper {
     //包装纸，有三种材料类型

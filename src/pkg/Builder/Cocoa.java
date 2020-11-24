@@ -1,4 +1,4 @@
-package pkg.wck.Builder;
+package pkg.Builder;
 
 public class Cocoa {
     //原材料之一可可，三种量对应三种不同巧克力
