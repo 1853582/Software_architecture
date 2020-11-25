@@ -26,7 +26,7 @@ public class Employee {
         staffs.remove(staff);
     }
     //获得该名员工的下属列表
-    public List<Employee> getstaffs(){
+    public List<Employee> getStaffs(){
         System.out.println("当前的下属一共有这么多");
         return staffs;
     }
