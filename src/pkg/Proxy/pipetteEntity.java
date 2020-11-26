@@ -6,6 +6,7 @@ public class pipetteEntity implements pipette{
     {
        name="001";
     }
+    public pipetteEntity(String name){this.name=name;}
     @Override
     public void move() {
         System.out.println("吸管正在移动.....\n");

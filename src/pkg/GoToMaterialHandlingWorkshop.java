@@ -3,7 +3,6 @@ package pkg;
 public class GoToMaterialHandlingWorkshop implements Command {
     @Override
     public void execute() {
-        Lift MagicLift = new Lift();
-        MagicLift.move(MaterialHandlingWorkshop.EnterMaterialProductionWorkshop());
+        Lift.getInstance().move(MaterialHandlingWorkshop.EnterMaterialProductionWorkshop());
     }
 }

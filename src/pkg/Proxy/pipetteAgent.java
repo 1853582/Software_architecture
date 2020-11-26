@@ -11,22 +11,26 @@ public class pipetteAgent implements pipette{
     }
 
     public pipetteAgent() {
-
+this.PipetteEntity=new pipetteEntity();
+    }
+    public pipetteAgent(String name)
+    {
+        this.PipetteEntity=new pipetteEntity(name);
     }
 
     @Override
     public void move() {
-     System.out.println("吸管正在移动.....\n");
+      PipetteEntity.move();
     }
 
     @Override
     public void Extraction() {
-    System.out.println("吸管正在快速抽取热可可......\n");
+    PipetteEntity.Extraction();
     }
 
     @Override
     public void PourOut() {
-        System.out.println("吸管倒出热可可......\n");
+        PipetteEntity.PourOut();
     }
 
     public void ShowPipette()

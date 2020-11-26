@@ -13,6 +13,7 @@ public class FactoryProducer {
                 return WrappingBoxFactory.getInstance();
             }
             default:{
+                System.out.println("没有这种制作器！");
                 return null;
             }
         }
