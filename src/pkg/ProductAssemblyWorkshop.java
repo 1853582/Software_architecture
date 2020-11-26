@@ -56,34 +56,36 @@ public class ProductAssemblyWorkshop implements Scene {
         FactoryProducer diyMaker = new FactoryProducer();
         System.out.println("威利旺卡：“查理，你想不想自己组装一块独一无二的巧克力呢？”");
         System.out.println("查理：想！我超级想！");
-        System.out.println("说出你喜欢的巧克力口味吧！");
+        System.out.println("威利旺卡：说出你喜欢的巧克力口味吧！");
         Scanner scan = new Scanner(System.in);
         String type = scan.next();
         while(diyMaker.getAbstractFactory("巧克力").getChocolate(type) == null){
-            System.out.println("我们没有这种巧克力哦..再选一个吧！");
+            System.out.println("威利旺卡：我们没有这种巧克力哦..再选一个吧！");
             scan = new Scanner(System.in);
             type = scan.next();
         }
-        System.out.println("棒极了！再说说你想要什么包装纸呢？");
+        System.out.println("威利旺卡：棒极了！再说说你想要什么包装纸呢？");
         scan = new Scanner(System.in);
         type = scan.next();
         while(diyMaker.getAbstractFactory("包装纸").getWrappingPaper(type) == null){
-            System.out.println("我们没有这种包装纸哦..再选一个吧！");
+            System.out.println("威利旺卡：我们没有这种包装纸哦..再选一个吧！");
             scan = new Scanner(System.in);
             type = scan.next();
         }
-        System.out.println("我觉得它们的搭配很棒！只剩下包装盒了，你要选择哪一个呢？");
+        System.out.println("威利旺卡：我觉得它们的搭配很棒！只剩下包装盒了，你要选择哪一个呢？");
         scan = new Scanner(System.in);
         type = scan.next();
         while(diyMaker.getAbstractFactory("包装盒").getWrappingBox(type) == null){
-            System.out.println("我们没有这种包装盒哦..再选一个吧！");
+            System.out.println("威利旺卡：我们没有这种包装盒哦..再选一个吧！");
             scan = new Scanner(System.in);
             type = scan.next();
         }
-        System.out.println("这三样东西结合在一起..我的上帝呐..这真的是..艺术..你想叫它什么呢？");
-        Scanner scan4 = new Scanner(System.in);
-        String Name = scan4.next();
-        System.out.println("太棒了！这块" + Name + "就送给你了！免费哦！");
+        System.out.println("威利旺卡：这三样东西结合在一起..我的上帝呐..这真的是..艺术..你想叫它什么呢？");
+        scan = new Scanner(System.in);
+        String Name = scan.next();
+        System.out.println("威利旺卡：太棒了！这块" + Name + "就送给你了！免费哦！");
+
+        new Scanner(System.in).nextLine();
         Decorator();
     }
 
