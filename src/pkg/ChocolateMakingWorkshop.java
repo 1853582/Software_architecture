@@ -11,6 +11,7 @@ public class ChocolateMakingWorkshop implements Scene {
     @Override
     public void welcome() {
         //调用建造者方法
+        //使用建造者模式
         System.out.println("Welcome to ChocolateMakingWorkshop!");
         Builder();
     }
@@ -23,6 +24,7 @@ public class ChocolateMakingWorkshop implements Scene {
 
     public void Builder(){
         //调用迭代器方法
+        //使用迭代器模式
         new Scanner(System.in).nextLine();
         MakingWorkShop makingWorkShop = new MakingWorkShop();
         new Scanner(System.in).nextLine();

@@ -12,6 +12,7 @@ public class Hazelnut implements RawMaterial {
     }
     @Override
     public void product() {
+        //使用空对象模式
         NulDemo nulDemo = new NulDemo();
         nulDemo.demoMain();
         System.out.println("奇怪的果仁增加了！\n");

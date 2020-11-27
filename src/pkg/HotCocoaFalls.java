@@ -102,7 +102,7 @@ public class HotCocoaFalls implements Scene{
     }
 
     public void State() {
-        //厂长介绍这里的温度湿度控制器
+        //厂长介绍这里的温度湿度控制器，采用状态模式
         CurrentState currentState = new CurrentState();
         //温度
         currentState.setStemp("炎热");

@@ -29,6 +29,7 @@ public class ProductAssemblyWorkshop implements Scene {
     }
     
     public void Prototype(){
+        //采用原型模式
         System.out.println("介绍完毕巧克力的组装过程后，厂长问小查理");
         System.out.println("还记得之前说的原型魔法吗？其实，生产巧克力时，原型魔法也能大显身手哦！");
         System.out.println("小查理惊讶地睁大了眼睛，问");
@@ -95,6 +96,7 @@ public class ProductAssemblyWorkshop implements Scene {
     }
 
     public void Decorator(){
+        //采用装饰器模式
         System.out.println("之后，小查理又在流水线上看到了几张金光闪闪的券，问厂长是什么");
         System.out.println("这个呀，这个就是我给善良诚实的孩子的礼物，厂长笑着说");
         System.out.println("小查理问，这是怎么做到的呀？");

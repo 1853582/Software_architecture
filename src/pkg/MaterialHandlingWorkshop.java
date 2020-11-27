@@ -63,7 +63,7 @@ public class MaterialHandlingWorkshop implements Scene {
     //Code
 
     public void Prototype() {
-        //介绍熔炉制作工艺
+        //介绍熔炉制作工艺，采用原型模式
         System.out.println("厂长问：看到那些大火炉了吗，我的孩子？");
         System.out.println("告诉你个秘密吧，其实起初只有一台熔炉哦");
         System.out.println("一位好心的魔法师使用神奇的原型魔法，帮我‘克隆’出了其他的熔炉，这可帮了大忙了！");
