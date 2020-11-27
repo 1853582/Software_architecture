@@ -12,6 +12,7 @@ public class ObserverPattern {
         subject.add(obs2);
         subject.add(obs3);
         subject.notifyObserver();
+        new Scanner(System.in).nextLine();
     }
 }
 

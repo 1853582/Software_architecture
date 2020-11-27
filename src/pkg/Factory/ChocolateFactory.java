@@ -1,6 +1,9 @@
 package pkg.Factory;
 
 public class ChocolateFactory extends AbstractFactory {
+
+    //具体巧克力工厂
+
     private static ChocolateFactory Instance = new ChocolateFactory();
 
     public static ChocolateFactory getInstance(){

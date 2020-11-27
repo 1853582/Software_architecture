@@ -5,7 +5,7 @@ public class WrappingBox {
     //包装盒，有三种颜色
 
     String  color;
-    public String WB(int w){
+    public String WrappingB(int w){
         switch(w){
             case 1:{
                 color = "Black";

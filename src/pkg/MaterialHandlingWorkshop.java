@@ -13,16 +13,17 @@ public class MaterialHandlingWorkshop implements Scene {
     public int Brightness=5;//亮度
     @Override
     public void welcome() {
-        System.out.println("Willy Wonka take the little boy to the raw material production");
-        System.out.println("Wonka:Welcome to Raw Material Production Workshop my friend! ");
-        System.out.println("All raw materials will be obtained from here");
-        System.out.println("Willy Wonka start displaying and pointing the cane over there.");
+        System.out.println("威利旺卡带着小查理来到了原料生产车间");
+        System.out.println("Wonka:欢迎来到原料生产车间我的朋友");
+        System.out.println("所有的原料都将在这里进行一次处理");
+        System.out.println("威利旺卡指向那边并开始展示");
         //开始展示榛果生产线
-
+        new Scanner(System.in).nextLine();
         ShowHazelnut();
-        System.out.println("Wonka:Over here is our cocoa bean processing ");
+        System.out.println("Wonka:而这边是我们的可可豆处理流水线");
+        new Scanner(System.in).nextLine();
         ShowCacao();
-        System.out.println("Come with me, let's go see something more interesting.");
+        System.out.println("跟我来让我们去看一些更有趣的东西");
         new Scanner(System.in).nextLine();
         Prototype();
     }

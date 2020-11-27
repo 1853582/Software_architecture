@@ -24,10 +24,11 @@ public class Demo {
         theStrategy.strategyEvent();
         //------------------------------------------------------------------------------------------------
         System.out.println(".........");
-        events.ExpressionEvent();
+        //events.ExpressionEvent();
         //身份验证事件
         //------------------------------------------------------------------------------------------------
         //命令发起者实例--男孩查理
+        //命令模式
         Invoker Charlie = new Invoker();
         while(true){
             //男孩查理发出命令

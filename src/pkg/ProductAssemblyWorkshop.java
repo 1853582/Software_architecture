@@ -53,6 +53,8 @@ public class ProductAssemblyWorkshop implements Scene {
     }
 
     public void diy(){
+
+        //此事件主要使用工厂模式和抽象工厂模式
         System.out.println("---------");
         System.out.println("---------");
         FactoryProducer diyMaker = new FactoryProducer();

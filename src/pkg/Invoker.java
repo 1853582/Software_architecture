@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Invoker {
 
+    //命令模式的Invoker
     private void printKey()
     {
         System.out.println("------------");
@@ -17,6 +18,7 @@ public class Invoker {
         System.out.println("------------");
     }
 
+    //Invoker发出命令
     public void setCommand() {
         printKey();
         System.out.println("威利旺卡：孩子，你想去哪儿？");
@@ -25,6 +27,7 @@ public class Invoker {
         action(floor);
     }
 
+    //执行具体动作
     public void action(String floor){
         switch (floor){
             case "1": {

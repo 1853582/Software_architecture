@@ -1,6 +1,7 @@
 package pkg;
 
 public class Lift implements Scene, Move{
+    //适配器模式的主体
     private static Lift theLift = new Lift();
     @Override
     public void welcome() {

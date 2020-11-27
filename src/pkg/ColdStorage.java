@@ -104,9 +104,11 @@ public class ColdStorage implements Scene{
         System.out.println("小男孩来到了冷库\n");
         System.out.println("Wonka:Welcome to Cold Storage, my hidden treasure!\n" +
                 "所有即将发售的商品以及来自世界各地的原料都汇集于此\n");
+        new Scanner(System.in).nextLine();
         InColdStorage();
+        new Scanner(System.in).nextLine();
         OutColdStorage();
-
+        new Scanner(System.in).nextLine();
         //LDL冷库剧情丰富
         coldStorageEvent();
 

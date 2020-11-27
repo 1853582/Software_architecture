@@ -2,7 +2,7 @@ package pkg.Flyweight;
 
 import java.util.HashMap;
 
-//享元模式
+//享元模式-享元类
 public class ColdStoragePlants {
   public static ColdStoragePlants coldStoragePlants;
   //HashMap加以控制

@@ -116,6 +116,7 @@ public class HotCocoaFalls implements Scene{
         System.out.println("---------------");
 
         //调用小赵的函数，输出提升功率的提示
+        //使用桥接模式
         Air_conditioner air = new Air_conditioner();
         air.setOperation(new TurnUp());
         System.out.println(air.getName());
@@ -135,6 +136,7 @@ public class HotCocoaFalls implements Scene{
         System.out.println("---------------");
 
         //调用小赵的函数，输出提升功率的提示
+        //调用桥接模式
         humidityController humI = new humidityController();
         humI.setOperation(new TurnUp());
         System.out.println(humI.getName());
@@ -148,9 +150,10 @@ public class HotCocoaFalls implements Scene{
         waterFallEvent();
         new Scanner(System.in).nextLine();
         //巧克力河被抽出送到下一楼，谭杰
-        //code
+        //代理模式
         pipetteEntity entity=new pipetteEntity();
         pipetteAgent pipette=new pipetteAgent(entity);
         pipette.ShowPipette();
+        new Scanner(System.in).nextLine();
     }
 }

@@ -1,5 +1,6 @@
 package pkg.Proxy;
 
+//代理模式-代理类
 public class pipetteEntity implements pipette{
     public String name;
     public pipetteEntity()

@@ -3,7 +3,7 @@ package pkg.Builder;
 public class Sugar {
     //原材料之一糖，三种量对应三种不同巧克力
     float weight;
-    public float SS(int w){
+    public float getSugar(int w){
         switch(w){
             case 1:{
                 weight = (float)1.7;;

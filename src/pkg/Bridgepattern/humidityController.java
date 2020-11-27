@@ -11,4 +11,5 @@ public class humidityController extends Device{
     public String getName() {
         return "湿度控制器"+this.operation.getOperationName();
     }
+    // 拼接得到湿度设备和操作的连接说明
 }

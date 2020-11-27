@@ -6,4 +6,5 @@ public class TurnDown implements Operation{
     public String getOperationName() {
          return "减小功率";
     }
+    //减小功率操作
 }

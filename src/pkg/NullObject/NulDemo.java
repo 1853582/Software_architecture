@@ -2,6 +2,7 @@ package pkg.NullObject;
 
 public class NulDemo {
     public void demoMain(){
+        //坚果样例以及相关景象
         AbstractNut nut1 = NutFactroy.getNut(1);
         AbstractNut nut2 = NutFactroy.getNut(2);
         AbstractNut nut3 = NutFactroy.getNut(3);

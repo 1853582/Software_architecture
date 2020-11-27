@@ -13,6 +13,7 @@ public class IteratorDemo {
         //正向检测
         for(MyIterator iter = chocolateCase.getIterator(); iter.hasNext();){
             chocolategood choco = iter.next();
+            //调用责任链模式
             new ColorCheck(choco).Handler();
             new SizeCheck(choco).Handler();
             new WeightCheck(choco).Handler();
@@ -23,6 +24,7 @@ public class IteratorDemo {
         //反向检测
         for(MyIterator iter1 = chocolateCase.getIterator(); iter1.hasLast();){
             chocolategood choco = iter1.last();
+            //调用责任链模式
             new ColorCheck(choco).Handler();
             new SizeCheck(choco).Handler();
             new WeightCheck(choco).Handler();
