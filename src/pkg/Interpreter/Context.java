@@ -18,10 +18,10 @@ public class Context
     {
         boolean ok=placePerson.interpret(info);
         if(ok) {
-            System.out.println("您是"+info+"，欢迎参观巧克力工厂！");
+            System.out.println("电梯显示：您是"+info+"，欢迎参观巧克力工厂！");
         return true;} // 身份验证通过
         else {
-            System.out.println(info+"，您没有进入巧克力工厂的许可！");
+            System.out.println("电梯显示："+info+"，您没有进入巧克力工厂的许可！");
         return false;} // 身份验证失败
     }
 }

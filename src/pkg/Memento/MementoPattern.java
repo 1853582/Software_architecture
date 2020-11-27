@@ -1,5 +1,7 @@
 package pkg.Memento;
 
+import java.util.Scanner;
+
 public class MementoPattern
 {
     public static void mpevent()
@@ -21,6 +23,7 @@ public class MementoPattern
         System.out.println("当前产品配方状态:"+or.getState());
         or.restoreMemento(cr.getMemento()); //恢复状态
         System.out.println("备忘录系统介入！产品的配方:"+or.getState());
+        new Scanner(System.in).nextLine();
     }
 }
 //备忘录
