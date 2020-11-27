@@ -146,9 +146,10 @@ public class HotCocoaFalls implements Scene{
         waterFallEvent();
         new Scanner(System.in).nextLine();
         //巧克力河被抽出送到下一楼，谭杰
-        //code
+        //代理模式
         pipetteEntity entity=new pipetteEntity();
         pipetteAgent pipette=new pipetteAgent(entity);
         pipette.ShowPipette();
+        new Scanner(System.in).nextLine();
     }
 }
