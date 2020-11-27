@@ -1,5 +1,6 @@
 package pkg.AppearanceRawMaterial;
-//import pkg.LDL.*;
+
+//外观模式 外观控制类
 public class RawMaterialProduction {
     public Hazelnut hazelnut;
     public Cacao cacao;

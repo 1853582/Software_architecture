@@ -4,6 +4,7 @@ import pkg.*;
 
 import java.util.Scanner;
 
+//外观模式 外观控制类
 public class ControllerUser {
     private Controller controller=new Controller();
     private int ControlRoom;
