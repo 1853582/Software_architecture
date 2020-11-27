@@ -27,7 +27,7 @@ public class Employee {
     }
     //获得该名员工的下属列表
     public List<Employee> getStaffs(){
-        System.out.println("当前的下属一共有这么多");
+        //System.out.println("当前的下属一共有这么多");
         return staffs;
     }
     //得到该名员工的姓名
