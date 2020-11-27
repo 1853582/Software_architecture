@@ -1,6 +1,7 @@
 package pkg.NullObject;
 
 public class NulNut extends AbstractNut{
+    //空的坚果
     public NulNut(int num){
         this.num = num;
     }

@@ -20,19 +20,24 @@ public class strategyDemo {
                 case "黑巧克力": strategyContext contextBlack = new strategyContext(new BlackChocolate());
                     //选择了黑巧克力的策略，然后实施该策略，进行黑巧克力的介绍
                     contextBlack.doStrategy("black chocolate");
+                    break;
                 case "白巧克力":strategyContext contextWhite = new strategyContext(new WhiteChocolate());
                     //选择了做白巧克力的策略，然后实施该策略，进行巧克力的制作
                     contextWhite.doStrategy("white chocolate");
+                    break;
                 case "夹心巧克力":strategyContext contextStuffed = new strategyContext(new StuffedChocolate());
                     //选择了做夹心巧克力的策略，然后实施该策略，进行巧克力的制作
                     contextStuffed.doStrategy("stuffed chocolate");
+                    break;
                 default: System.out.println("哦，小朋友，真抱歉，这种巧克力我们工厂还正在开发当中，我也没办法向你介绍更多了~");
             }
         } catch (Exception e){
-            System.out.println("输入错误，请重新输入");
+            System.out.println("输入错误");
         }
         }
         System.out.println("那就这样吧，小朋友，时间不等人哦，我们工厂里面的东西更加有趣，让我带着你一起去瞧瞧吧！");
+        System.out.println("--------------");
+        System.out.println("就这样，威利旺卡带着小男孩一起走回了电梯");
     }
 //    public static void main(String[] args){
 //        strategyContext contextBlack=new strategyContext(new BlackChocolate());

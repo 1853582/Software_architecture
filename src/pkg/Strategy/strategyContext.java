@@ -9,7 +9,7 @@ public class strategyContext {
         this.strategy = strategy;
     }
     //施行选择的策略
-    public int doStrategy(String chocType){
+    public boolean doStrategy(String chocType){
         return strategy.doChocolate(chocType);
     }
 }

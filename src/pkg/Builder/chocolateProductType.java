@@ -1,6 +1,6 @@
 package pkg.Builder;
 
-public class chocolateProductType extends chocolateProductTemplate{
+public class chocolateProductType extends chocolateProductTemplate {
     //巧克力产品类型
     public void type1(){
         this.type = 1;

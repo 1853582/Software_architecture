@@ -11,11 +11,13 @@ public class WrappingPaperFactory extends AbstractFactory {
 
     @Override
     public Chocolate getChocolate(String ChocolateName) {
+        System.out.println("包装纸制作器不能生产巧克力！");
         return null;
     }
 
     @Override
     public WrappingBox getWrappingBox(String BoxName) {
+        System.out.println("包装纸制作器不能生产包装盒！");
        return null;
     }
 
