@@ -1,5 +1,7 @@
 package pkg.Strategy;
 
+import java.util.Scanner;
+
 public class StuffedChocolate implements Strategy{
     //策略之三，选择夹心巧克力
     @Override
@@ -11,6 +13,7 @@ public class StuffedChocolate implements Strategy{
         System.out.println("因此，夹心巧克力成型浇注，控制温度极为重要，尤其是心体料温度，若控制不当，将影响全过程的平衡操作和最终产品的品质");
         System.out.println("我的工厂做出的夹心巧克力可是非常优质美味的哦！");
         System.out.println(".........");
+        new Scanner(System.in).nextLine();
         return true;
     }
 }

@@ -1,5 +1,8 @@
 package pkg;
 import pkg.Flyweight.*;
+
+import java.util.Scanner;
+
 public class ColdStorage implements Scene{
     private static ColdStorage Instance = new ColdStorage();
 
@@ -67,9 +70,13 @@ public class ColdStorage implements Scene{
         System.out.println("威利旺卡：这里可是有数不尽的各式各样的巧克力哟！");
         System.out.println("威利旺卡拄着他的拐杖一步一步的来到冷冻柜前，准备打开柜门，取一块巧克力出来");
         System.out.println(".........");
+        new Scanner(System.in).nextLine();
         System.out.println("威利旺卡打开了一冷库的一个柜门，哗啦啦.........");
+        new Scanner(System.in).nextLine();
+        //用唯一的实例进行查看
         Instance.isEmpty(3,7);
         Instance.takeOut(3,7);
+
         System.out.println("威利旺卡：来，小朋友，这块巧克力给你尝尝");
         System.out.println("威利旺卡：emmmmm,怎么感觉房间好冷呀，让我看看房间温度");
         System.out.println("哦，对了，和巧克力瀑布处一样的哦，咋们这个冷库也有着一个可以控制温度的触摸屏呢，来让咋们把冷库温度调低一点");
@@ -80,10 +87,15 @@ public class ColdStorage implements Scene{
         System.out.println("|------冷库温度------|----------*"+Instance.checkTemp()+"℃"+"----------|");
         System.out.println("|--------------------------------------------|");
         System.out.println("威利旺卡：怪不得这么冷呢，温度这么低，让我把它调高一点");
+        new Scanner(System.in).nextLine();
+        //获取单例模式的冷库唯一实例，进行调节
         System.out.println("滴答.......");
         Instance.setTemp(-12);
         System.out.println("...........");
+        System.out.println("*****冷库调节运用了单例模式，唯一的冷库*****");
+        new Scanner(System.in).nextLine();
         System.out.println("威利旺卡：这个冷库可是我们工厂非常重要的一个环节，它要是出问题了，可能会危及整个工厂的巧克力，所以智能管理很重要滴！");
+        new Scanner(System.in).nextLine();
     }
 
     //进入冷库事件

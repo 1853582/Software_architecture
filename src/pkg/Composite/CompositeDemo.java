@@ -1,5 +1,7 @@
 package pkg.Composite;
 
+import java.util.Scanner;
+
 public class CompositeDemo {
     private static CompositeDemo Instance = new CompositeDemo();
 
@@ -41,6 +43,8 @@ public class CompositeDemo {
         Dwarf1.add(Dwarf5);
         System.out.println("工厂员工列表生完毕！.......");
         System.out.println("---------------");
+        System.out.println("*****员工列表生成利用了组合模式*****");
+        new Scanner(System.in).nextLine();
     }
 
     public static CompositeDemo getInstance(){

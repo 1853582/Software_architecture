@@ -72,7 +72,8 @@ public class HotCocoaFalls implements Scene{
         System.out.println("|------巧克力温度----|----------*"+Instance.temp+"℃"+"----------|");
         System.out.println("|------巧克力甜度----|-----------"+Instance.sweet+"------------|");
         System.out.println("|--------------------------------------------|");
-        System.out.println("威利旺卡：通过触碰这个小屏幕，也可手动进行调节房间温度哦，你想要这个房间温暖一点还是再凉爽一点呢？");
+        System.out.println("威利旺卡：通过触碰这个小屏幕，也可手动进行调节房间温度哦，你想要这个房间温暖一点还是再凉爽一点呢？（输入温暖点或者凉爽点）");
+        //输入温暖一点还是凉爽一点，来升高或降低温度
         Scanner str =new Scanner(System.in);
         String choice=str.nextLine();
         if(choice.equals("温暖一点")||choice.equals("温暖点")||choice.equals("温暖")){
@@ -82,7 +83,10 @@ public class HotCocoaFalls implements Scene{
         }else {
             System.out.println("好吧，你不想温度改变的话，我们就继续参观后面了哦");
         }
+        System.out.println("*****巧克力瀑布调节运用了单例模式，调节唯一的巧克力瀑布*****");
+        new Scanner(System.in).nextLine();
         System.out.println("威利旺卡：小朋友，怎么样，我的巧克力瀑布很神奇吧\n");
+        new Scanner(System.in).nextLine();
     }
 
     @Override

@@ -1,5 +1,7 @@
 package pkg.Strategy;
 
+import java.util.Scanner;
+
 public class BlackChocolate implements Strategy{
     //策略之一，选择黑巧克力
     @Override
@@ -10,6 +12,7 @@ public class BlackChocolate implements Strategy{
         System.out.println("可可豆需要经过挑选、烘干、研磨、加热、搅拌、熟成、冷却、 灌模，才能形成一方完美黑亮的巧克力。");
         System.out.println("约1公斤的可可豆只能提炼出不到500公克的巧克 力精华，而制作过程至少需要经历20几个步骤,制作过程也是十分复杂的");
         System.out.println(".........");
+        new Scanner(System.in).nextLine();
         return true;
     }
 }

@@ -35,9 +35,12 @@ public class strategyDemo {
             System.out.println("输入错误");
         }
         }
+        System.out.println("*****巧克力介绍运用了策略模式*****");
+        new Scanner(System.in).nextLine();
         System.out.println("那就这样吧，小朋友，时间不等人哦，我们工厂里面的东西更加有趣，让我带着你一起去瞧瞧吧！");
         System.out.println("--------------");
         System.out.println("就这样，威利旺卡带着小男孩一起走回了电梯");
+        new Scanner(System.in).nextLine();
     }
 //    public static void main(String[] args){
 //        strategyContext contextBlack=new strategyContext(new BlackChocolate());

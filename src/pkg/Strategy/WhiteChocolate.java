@@ -1,5 +1,7 @@
 package pkg.Strategy;
 
+import java.util.Scanner;
+
 public class WhiteChocolate implements Strategy{
     //策略之二，选择白巧克力
     @Override
@@ -9,6 +11,7 @@ public class WhiteChocolate implements Strategy{
         System.out.println("白巧克力成分与牛奶巧克力基本相同，只是不含可可粉，乳制品和糖粉的含量相对较大，甜度高。也就是说，白巧克力的脂肪含量非常高。");
         System.out.println("不过，白巧克力的口感十分的香甜，非常的惹女孩子喜欢。");
         System.out.println(".........");
+        new Scanner(System.in).nextLine();
         return true;
     }
 }
