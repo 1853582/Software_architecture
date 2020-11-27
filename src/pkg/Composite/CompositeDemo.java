@@ -3,6 +3,7 @@ package pkg.Composite;
 import java.util.Scanner;
 
 public class CompositeDemo {
+    //创建 SingleObject 的一个对象，单例模式
     private static CompositeDemo Instance = new CompositeDemo();
 
     public Employee theBoss;
@@ -16,7 +17,7 @@ public class CompositeDemo {
     private Employee Dwarf3;
     private Employee Dwarf4;
     private Employee Dwarf5;
-
+    //让构造函数为 private，这样该类就不会被实例化，单例模式
     private CompositeDemo(){
         System.out.println("---------------");
         System.out.println("工厂员工列表生成中.......");
@@ -46,7 +47,7 @@ public class CompositeDemo {
         System.out.println("*****员工列表生成利用了组合模式*****");
         new Scanner(System.in).nextLine();
     }
-
+    //获取唯一可用的对象，单例模式
     public static CompositeDemo getInstance(){
         return Instance;
     }

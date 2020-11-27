@@ -4,8 +4,9 @@ import pkg.Flyweight.*;
 import java.util.Scanner;
 
 public class ColdStorage implements Scene{
+    //创建 SingleObject 的一个对象，单例模式
     private static ColdStorage Instance = new ColdStorage();
-
+    //获取唯一可用的对象，单例模式
     public static ColdStorage getInstance(){
         return Instance;
     }
@@ -15,6 +16,7 @@ public class ColdStorage implements Scene{
     public float Humidity=20;//冷库湿度
     public int Brightness=3;//冷库亮度
     private int[][] Capacity = new int[20][20];  //冷库的分布，0表示位置为空，1代表该位置以被占
+    //让构造函数为 private，这样该类就不会被实例化，单例模式
     private ColdStorage(){
         coldStoragePlants=new ColdStoragePlants();
     }

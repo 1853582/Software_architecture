@@ -1,7 +1,7 @@
 package pkg.Singleton;
 
 import java.util.Scanner;
-
+//非测试代码，已融合进其它地方
 //巧克力瀑布担任一个搅拌巧克力的功效
 public class Waterfall {
     private int roomTemp;      //巧克力瀑布所在房间的室内温度

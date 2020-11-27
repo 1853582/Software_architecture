@@ -6,14 +6,16 @@ import java.util.Scanner;
 
 public class strategyDemo {
     public void strategyEvent(){
+        //该处使用了组合模式，得到员工列表
         CompositeDemo Boss = CompositeDemo.getInstance();
         for(int i=0;i<2;i++){
         try {
             if(i==0){
-                System.out.println(Boss.theBoss.getName()+"笑着对小孩说：我的工厂可是有非常美味的巧克力哦，你想了解了解哪种巧克力呢");
+                System.out.println(Boss.theBoss.getName()+"笑着对小孩说：我的工厂可是有非常美味的巧克力哦，你想了解了解哪种巧克力呢(黑巧克力、白巧克力、夹心巧克力)");
             }else {
                 System.out.println(Boss.theBoss.getName()+"又问道：还有呢，小朋友，畅所欲言，我们工厂的巧克力都能给你介绍介绍哦");
             }
+            //选择策略，策略模式
             Scanner str = new Scanner(System.in);
             String choice = str.nextLine();
             switch (choice){

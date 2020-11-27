@@ -8,12 +8,13 @@ import pkg.Factory.*;
 import java.util.Scanner;
 
 public class ProductAssemblyWorkshop implements Scene {
+    //创建 SingleObject 的一个对象，单例模式
     private static ProductAssemblyWorkshop Instance = new ProductAssemblyWorkshop();
-
+    //获取唯一可用的对象，单例模式
     public static ProductAssemblyWorkshop getInstance(){
         return Instance;
     }
-
+    //让构造函数为 private，这样该类就不会被实例化，单例模式
     private ProductAssemblyWorkshop() { }
 
     @Override

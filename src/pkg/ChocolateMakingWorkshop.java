@@ -6,6 +6,7 @@ import pkg.Builder.MakingWorkShop;
 import java.util.Scanner;
 
 public class ChocolateMakingWorkshop implements Scene {
+    //创建 SingleObject 的一个对象，单例模式
     private  static ChocolateMakingWorkshop Instance =new ChocolateMakingWorkshop();
     @Override
     public void welcome() {
@@ -13,7 +14,7 @@ public class ChocolateMakingWorkshop implements Scene {
         System.out.println("Welcome to ChocolateMakingWorkshop!");
         Builder();
     }
-
+    //获取唯一可用的对象，单例模式
     public static ChocolateMakingWorkshop getInstance(){
         return Instance;
     }

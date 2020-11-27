@@ -1,7 +1,7 @@
 package pkg.Composite;
 import java.util.ArrayList;
 import java.util.List;
-
+//组合模式
 public class Employee {
     private String name;     //如小松鼠杰米
     private String dept;

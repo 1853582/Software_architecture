@@ -16,17 +16,17 @@ public class HotCocoaFalls implements Scene{
     private int roomTemp;      //巧克力瀑布所在房间的室内温度
     private int temp;  //巧克力瀑布的温度
     private String sweet;
-    //创建 SingleObject 的一个对象
+    //创建 SingleObject 的一个对象，单例模式
     private static HotCocoaFalls Instance = new HotCocoaFalls();
 
-    //让构造函数为 private，这样该类就不会被实例化
+    //让构造函数为 private，这样该类就不会被实例化，单例模式
     private HotCocoaFalls(){
         this.temp=-10;
         this.roomTemp = -15;
         this.sweet="5%";
     }
 
-    //获取唯一可用的对象
+    //获取唯一可用的对象，单例模式
     public static HotCocoaFalls getInstance(){
         return Instance;
     }

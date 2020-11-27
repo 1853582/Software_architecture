@@ -1,5 +1,5 @@
 package pkg.Singleton;
-
+//非测试代码，已融合进其它地方
 public class Boiler {
     private int temp;    //熔炉的温度
     private int time;    //设定熔炉燃烧时间，以分钟为单位

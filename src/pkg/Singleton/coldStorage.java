@@ -1,7 +1,7 @@
 package pkg.Singleton;
 
 import java.util.Scanner;
-
+//非测试代码，已融合进其它地方
 public class coldStorage {
     private int temp;  //冷库的温度
     private int[][] Capacity = new int[20][20];  //冷库的分布，0表示位置为空，1代表该位置以被占
