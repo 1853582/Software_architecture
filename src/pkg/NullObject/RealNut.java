@@ -1,6 +1,7 @@
 package pkg.NullObject;
 
 public class RealNut extends AbstractNut{
+    //完整的坚果
     public RealNut(int num){
         this.num = num;
     }

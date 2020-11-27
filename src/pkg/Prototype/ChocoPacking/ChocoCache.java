@@ -11,9 +11,9 @@ public class ChocoCache {
         return (Choco) cachedChoco.clone();
     }
 
-    // 对每种熔炉都运行数据库查询，并创建该熔炉
+    // 对每种巧克力都运行数据库查询，并创建该巧克力
     // ChocoMap.put(ChocoKey, Choco);
-    // 例如，我们要添加三种熔炉
+    // 例如，我们要添加三种巧克力
     public static void loadCache() {
         WhiteChoco whiteChoco = new WhiteChoco();
         whiteChoco.setId("1");

@@ -1,6 +1,6 @@
 package pkg.Builder;
 
-public class chocolateType extends chocolateTemplate{
+public class chocolateType extends pkg.Builder.chocolateTemplate {
     //巧克力原型类型
 
     public void type1(){
