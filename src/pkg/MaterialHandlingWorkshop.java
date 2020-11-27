@@ -4,6 +4,9 @@ import pkg.Prototype.BoilerProducing.BoilerCache;
 import pkg.Prototype.BoilerProducing.Boiler;
 import pkg.Memento.MementoPattern;
 import pkg.Mediator.MediatorPattern;
+
+import java.util.Scanner;
+
 public class MaterialHandlingWorkshop implements Scene {
     public int temp=24;  //温度
     public float Humidity=50;//湿度
@@ -20,6 +23,7 @@ public class MaterialHandlingWorkshop implements Scene {
         System.out.println("Wonka:Over here is our cocoa bean processing ");
         ShowCacao();
         System.out.println("Come with me, let's go see something more interesting.");
+        new Scanner(System.in).nextLine();
         Prototype();
     }
     //单例模式
@@ -75,6 +79,7 @@ public class MaterialHandlingWorkshop implements Scene {
         Boiler clonedBoiler3 = (Boiler) BoilerCache.getBoiler("3");
         System.out.println("Boiler : " + clonedBoiler3.getType());
         System.out.println("---------------");
+        new Scanner(System.in).nextLine();
 
         //保险箱，马文博
         //code

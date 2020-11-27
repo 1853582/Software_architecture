@@ -34,6 +34,7 @@ public class ProductAssemblyWorkshop implements Scene {
         System.out.println("生产巧克力也可以进行‘克隆’吗？");
         System.out.println("厂长笑着说，请看这里的神奇复制机：");
         System.out.println("---------------");
+        //从存储原型的哈希表中调取并输出
         ChocoCache.loadCache();
 
         Choco clonedChoco = (Choco) ChocoCache.getChoco("1");
@@ -46,6 +47,7 @@ public class ProductAssemblyWorkshop implements Scene {
         System.out.println("Choco : " + clonedChoco3.getType());
         System.out.println("---------------");
         System.out.println("原来如此，小查理恍然大悟。");
+        new Scanner(System.in).nextLine();
         
         diy();
     }
@@ -109,8 +111,10 @@ public class ProductAssemblyWorkshop implements Scene {
         System.out.println("\n含有奖券的锡箔装巧克力：");
         havingGiftTinfoil.wrap();
         System.out.println("---------------");
+        new Scanner(System.in).nextLine();
 
         System.out.println("\n小查理若有所思，这时厂长说:6楼还有更好玩的东西，快跟我来吧！");
         System.out.println("于是一行人走到了电梯口");
+        new Scanner(System.in).nextLine();
     }
 }

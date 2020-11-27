@@ -53,15 +53,16 @@ public class HotCocoaFalls implements Scene{
         return true;
     }
     //查看当前房间的室温
-    public int checkRoomTemp(){
+    /*public int checkRoomTemp(){
         System.out.println("当前房间的温度为："+Instance.roomTemp+"℃");
         return Instance.roomTemp;
-    }
+    }3
+
     //查看巧克力河的内温
     public int checkTemp(){
         System.out.println("当前巧克力瀑布的温度为："+Instance.temp+"℃");
         return Instance.temp;
-    }
+    }*/
     public void waterFallEvent(){
         System.out.println("---------------");
         System.out.println("威利旺卡：小朋友，来看看这里，这个小屏幕可以显示这个房间以及巧克力瀑布一些属性，巧克力甜度、温度啊，等等...");
@@ -92,6 +93,7 @@ public class HotCocoaFalls implements Scene{
         Instance.pourIn();
         System.out.println("威利旺卡：瞧，巧克力瀑布正在流淌！");
         Instance.pourOut();
+        new Scanner(System.in).nextLine();
         State();
     }
 
@@ -117,6 +119,7 @@ public class HotCocoaFalls implements Scene{
         System.out.println("---------------");
         currentState.setStemp("适宜");
         airConditioner.doAction(currentState);
+        new Scanner(System.in).nextLine();
 
         //湿度
         currentState.setShumi("潮湿");
@@ -135,9 +138,11 @@ public class HotCocoaFalls implements Scene{
         System.out.println("---------------");
         currentState.setShumi("适宜");
         humidityController.Control(currentState);
+        new Scanner(System.in).nextLine();
 
         //LDL加交互调节温度的剧情
         waterFallEvent();
+        new Scanner(System.in).nextLine();
         //巧克力河被抽出送到下一楼，谭杰
         //code
         pipetteEntity entity=new pipetteEntity();
