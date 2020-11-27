@@ -10,6 +10,7 @@ public class MediatorPattern
         c1.send();
         System.out.println("-----------------");
         c2.send();
+        new Scanner(System.in).nextLine();
     }
 }
 //简单单例中介者
