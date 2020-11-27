@@ -112,6 +112,7 @@ public class HotCocoaFalls implements Scene{
         System.out.println("---------------");
 
         //调用小赵的函数，输出提升功率的提示
+        //使用桥接模式
         Air_conditioner air = new Air_conditioner();
         air.setOperation(new TurnUp());
         System.out.println(air.getName());
@@ -131,6 +132,7 @@ public class HotCocoaFalls implements Scene{
         System.out.println("---------------");
 
         //调用小赵的函数，输出提升功率的提示
+        //调用桥接模式
         humidityController humI = new humidityController();
         humI.setOperation(new TurnUp());
         System.out.println(humI.getName());
