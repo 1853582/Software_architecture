@@ -1,8 +1,8 @@
 package pkg;
 
 public class Lift implements Scene, Move{
-    //创建 SingleObject 的一个对象，单例模式
     //适配器模式的主体
+    //创建 SingleObject 的一个对象，单例模式
     private static Lift theLift = new Lift();
     //让构造函数为 private，这样该类就不会被实例化，单例模式
     private Lift(){}
