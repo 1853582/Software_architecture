@@ -9,16 +9,16 @@ public class ChocolateCase implements Container {
 
     //巧克力示例
     private static int Choco = 5;
-    Color color1 = new Color(40,50,60);
-    Color color2 = new Color(80,50,60);
-    Color color3 = new Color(40,90,60);
-    Color color4 = new Color(40,50,120);
-    Color color5 = new Color(120,150,160);
-    chocolategood choco1 = new chocolategood(3,4,8,40,color1 ,1 ,1 );
-    chocolategood choco2 = new chocolategood(3,40,8,40,color2 ,2 ,2 );
-    chocolategood choco3 = new chocolategood(3,4,80,40,color3 ,1 ,3 );
-    chocolategood choco4 = new chocolategood(30,4,8,40,color4 ,2 ,4 );
-    chocolategood choco5 = new chocolategood(30,40,80,40,color5 ,1 ,5 );
+    Color color1 = new Color(210,105,30);//合格的黑
+    Color color2 = new Color(253,250,240);//合格的白
+    Color color3 = new Color(240,251,240);//不合格的白
+    Color color4 = new Color(210,99,30);//不合格的黑
+    Color color5 = new Color(255,251,240);//合格的白
+    chocolategood choco1 = new chocolategood((float)26.16,(float)26.16,(float)7.21,(float)100.01,color1 ,1 ,1 );
+    chocolategood choco2 = new chocolategood((float)26.06,(float)26.16,(float)7.19,(float)99.99,color2 ,2 ,2 );
+    chocolategood choco3 = new chocolategood((float)26.14,(float)26.16,(float)7.20,(float)100.00,color3 ,2 ,3 );
+    chocolategood choco4 = new chocolategood((float)26.36,(float)26.28,(float)7.21,(float)99.05,color4 ,1 ,4 );
+    chocolategood choco5 = new chocolategood((float)25.85,(float)26.13,(float)7.11,(float)100.2,color5 ,2 ,5 );
 
     //获得迭代器
     @Override

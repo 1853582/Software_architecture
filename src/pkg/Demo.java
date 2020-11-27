@@ -21,10 +21,10 @@ public class Demo {
         System.out.println(".........");
         //-------------LDL的介绍巧克力部分，运用策略模式--------------------------------------------------------
         strategyDemo theStrategy = new strategyDemo();
-        //theStrategy.strategyEvent();
+        theStrategy.strategyEvent();
         //------------------------------------------------------------------------------------------------
         System.out.println(".........");
-        //events.ExpressionEvent();
+        events.ExpressionEvent();
         //身份验证事件
         //------------------------------------------------------------------------------------------------
         //命令发起者实例--男孩查理
