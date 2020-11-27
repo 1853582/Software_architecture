@@ -1,6 +1,7 @@
 package pkg.Factory;
 
 public class FactoryProducer {
+    //工厂生成器
     public AbstractFactory getAbstractFactory(String type){
         switch (type){
             case "巧克力" :{

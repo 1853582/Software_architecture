@@ -1,6 +1,9 @@
 package pkg.Factory;
 
 public class WrappingPaperFactory extends AbstractFactory {
+
+    //具体包装纸工厂
+
     private static WrappingPaperFactory Instance = new WrappingPaperFactory();
 
     public static WrappingPaperFactory getInstance(){
