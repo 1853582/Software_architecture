@@ -9,11 +9,13 @@ class andExpression implements Expression
     {
         this.place= place;
         this.person=person;
+        // 分终结符表达式类
     }
     public boolean interpret(String info)
     {
         info = info.replaceAll("来自", "");
         String s[]=info.split("的");
+        // 根据文法解析字符串info
         return place.interpret(s[0])&&person.interpret(s[1]);
     }
 }
