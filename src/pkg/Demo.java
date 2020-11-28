@@ -5,6 +5,8 @@ import pkg.Observer.ObserverPattern;
 import pkg.Strategy.strategyDemo;
 import pkg.Visitor.Viewer;
 
+import java.util.Scanner;
+
 public class Demo {
     public static void main(String[] args) {
         System.out.println("查理来到庄严雄伟的巧克力工厂门口");
@@ -25,7 +27,7 @@ public class Demo {
         theStrategy.strategyEvent();
         //------------------------------------------------------------------------------------------------
         System.out.println(".........");
-        //events.ExpressionEvent();
+        events.ExpressionEvent();
         //身份验证事件
         //------------------------------------------------------------------------------------------------
         //命令发起者实例--男孩查理
