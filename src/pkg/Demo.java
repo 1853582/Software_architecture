@@ -5,8 +5,6 @@ import pkg.Observer.ObserverPattern;
 import pkg.Strategy.strategyDemo;
 import pkg.Visitor.Viewer;
 
-import java.util.Scanner;
-
 public class Demo {
     public static void main(String[] args) {
         System.out.println("查理来到庄严雄伟的巧克力工厂门口");
