@@ -21,7 +21,7 @@ public class HotList {
         this.RankAndName1.init(1, "  酒心巧克力");
         this.RankAndName2.init(2, "  榛子巧克力");
         this.RankAndName3.init(3, "  慕丝巧克力");
-        this.RankAndName4.init(4, "  松果弹抖巧克力");
-        this.RankAndName5.init(5, "  闪电鞭巧克力");
+        this.RankAndName4.init(4, "  牛奶巧克力");
+        this.RankAndName5.init(5, "  拿铁巧克力");
     }
 }

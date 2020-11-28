@@ -16,6 +16,7 @@ public class Demo {
         //------------------------------------------------------------------------------------------------
         Viewer viewer = new Viewer();
         viewer.veiwHotList();
+        new Scanner(System.in).nextLine();
         viewer.veiwPastYearList();
         //------------------------------------------------------------------------------------------------
         System.out.println(".........");
